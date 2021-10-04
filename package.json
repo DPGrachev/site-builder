@@ -1,0 +1,25 @@
+{
+  "name": "site-builder",
+  "version": "1.0.0",
+  "description": "Конструктор сайтов",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DPGrachev/site-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DPGrachev/site-builder/issues"
+  },
+  "homepage": "https://github.com/DPGrachev/site-builder#readme",
+  "devDependencies": {
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
