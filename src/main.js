@@ -1,6 +1,4 @@
-import LandingView from './view/landing';
-import { render, RenderPosition} from './utils';
+import MainPresenter from './presenter/main';
 
-const mainElement = document.querySelector('main');
-
-render(mainElement, new LandingView(), RenderPosition.BEFOREEND);
+const presenter = new MainPresenter();
+presenter.init();

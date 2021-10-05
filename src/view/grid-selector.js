@@ -1,6 +1,6 @@
 import AbstractView from './abstract.js';
 
-const createLandingTemplate = () => (
+const createGridSelectorTemplate = () => (
   `<form class="grid-select">
     <h2 class="grid-select__header">Выберите сетку сайта</h2>
     <input class="grid-select__radio visually-hidden" type="radio" name="grid" id="grid-landing" checked>
@@ -35,10 +35,10 @@ const createLandingTemplate = () => (
     </label>
   </form>`);
 
-class Landing extends AbstractView {
+class GridSelector extends AbstractView {
   getTemplate(){
-    return createLandingTemplate();
+    return createGridSelectorTemplate();
   }
 }
 
-export default Landing;
+export default GridSelector;
